@@ -1,0 +1,111 @@
+@media (min-width: 930px) {
+    .nav_bar{
+        background:rgba(0, 0, 0, 0.2);
+        height:auto;
+    }
+
+    .dropbtn {
+        display:none;
+    }
+    #mydropdown{
+        display:none;
+    }
+
+    /*.dropdown-content{
+        display:none;
+    }*/
+.dropdown_content_lg{
+    display: inline-block;
+    right:0;
+}
+
+.menu{
+    display:inline-block;
+    right:0;
+}
+
+/*.dropdown{
+    display:none;
+}*/
+li {
+    display: inline-block;
+        padding: 1em;
+
+}
+
+li:hover{
+    background-color: skyblue;
+    text-decoration: none;
+    color: white;
+}
+ul{
+    margin:0 3em;
+    padding-top:0;
+    height: auto%;
+}
+
+
+.link {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size:1.9em;
+}
+.link:hover{
+    text-decoration: none;
+    color: black;
+}
+/*.dropdown_content_lg:hover {
+    background-color: skyblue;
+    text-decoration: none;
+    color: white;
+}*/
+.dropdown-content a{
+    display:none;
+}
+
+header{
+    height: 680px;
+}
+ header.header hr {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  header.header h1 {
+    font-size: 2rem; }
+  header.header p {
+    font-weight: 300; }
+  @media (min-width: 768px) {
+    header.header p {
+      font-size: 1.15rem; } }
+  @media (min-width: 992px) {
+    header.header {
+      height: 100vh;
+      min-height: 650px;
+      padding-top: 15rem;
+      padding-bottom: 0; }
+      header.header h1 {
+        font-size: 3rem; } }
+  @media (min-width: 1200px) {
+    header.header h1 {
+      font-size: 4rem; } }
+
+
+
+ .brand_name{
+    color: White;
+    margin-left: 2em;
+    Font-size: 2.8rem;
+ }
+
+.brand_name:hover{
+     text-decoration:none;
+     color:white;
+ }
+   
+
+.fa-home, .fa-music, .fa-calendar{
+        display:none;
+    }
+
+
+     }

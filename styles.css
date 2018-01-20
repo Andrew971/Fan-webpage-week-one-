@@ -1,0 +1,377 @@
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+
+hr {
+  max-width: 30%;
+  border-width: 3px;
+  border-color: #F05F40;
+   }
+
+hr.light {
+  border-color: #fff; }
+
+a {
+  color: #F05F40;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s; }
+  a:hover {
+    color: #f05f40; }
+
+.title{
+    text-align:center;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+
+h1{
+    font-size:2rem;
+}
+.bg-primary {
+  background-color: #F05F40 !important; }
+
+.bg-dark {
+  background-color: #212529 !important; }
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7); }
+
+.nav_bar{
+    width:100%;
+    color:white;
+    /*background:white;*/
+    background:rgba(0, 0, 0, 0.2);
+    /*height: 1em;*/
+    position:absolute;
+    top:0;
+    /*z-index:0;*/
+}
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: skyblue;
+    color: #FFF;
+    padding: 1em;
+    /*font-size: 16px;*/
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+
+.fa-bars {
+
+    font-size: 2em;
+    
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    /*position: absolute;*/
+    display: inline-block;
+    right:0;
+    top:0;
+}
+
+.dropdown_content_lg{
+    display:none;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:skyblue;
+    /*min-width: 160px;*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right:0;
+    z-index:1;
+ }
+
+.link1{
+    padding:1.2rem;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #000;
+    /*padding: 12px 16px;*/
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+/*.dropdown:hover .dropdown-content {
+    display: block;
+}*/
+
+.show {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/*.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}*/
+
+.header{
+    padding-right:4em;
+    width:100%;
+    /*height: 100vh;*/
+    margin: 0;
+    background-color: transparent;
+    background: url(./images/header2.jpg) no-repeat ;
+    padding-top: 15rem;
+    padding-bottom: calc(10rem - 56px);
+    background-position: center center;
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+  -o-background-size: cover;*/
+  background-size: cover; 
+  color: white;
+  }
+
+ .header_page{
+    padding-right:4em;
+    width:100%;
+    height: 20rem;
+    margin: 0;
+    background-color: transparent;
+    background: url(./images/header.jpg) no-repeat ;
+    /*background-size: cover;*/
+    padding-top: 15rem;
+    padding-bottom: calc(10rem - 56px);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  color: white;
+  }
+
+ .brand_name{
+    color:white;
+    text-decoration:none;
+    font-size:2.2em;
+    text-transform: uppercase;
+    margin-left: 0.7em;
+    margin-right:0.2em;
+ }
+
+ .brand_name:hover{
+     text-decoration:none;
+     color:white;
+ }
+
+ .middle{
+     position: absolute;
+     bottom:0;
+     margin-left:50%;
+     margin-right:50%;
+     font-size: 2rem;
+     bottom:2%;
+ }
+
+/*img {
+     width: 10rem;
+     height: 10rem;
+     margin: 2rem;
+ }*/
+
+
+
+
+.col-md-6.bio-grid-left {
+    width: 50%;
+    float: left;
+    /*display:inline-block;*/
+}
+.col-md-6.bio-grid-right{
+    width: 50%;
+    /*float: right;*/
+    /*display:inline-block;*/
+
+}
+.bio-img {
+    text-align: center;
+    /*width: 100%;*/
+    border: 5px solid rgba(238, 238, 238, 0.53);
+    /*width: 400px;*/
+    height: auto;
+    padding: 2rem;
+    /*margin: 0 2rem;*/
+
+}
+.bio-text{
+    text-align: center;
+    margin: 2rem;
+}
+
+
+.bio-grids {
+    padding: 5em 0 0 0;
+}
+.bio-img img {
+    width: 100%;
+    /*height: 15rem;*/
+    /*border-radius: 50%;*/
+}
+
+
+.bio-text p {
+    width: 100%;
+}
+.bio-img h3 {
+    color: black;
+    font-size: 2.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+        letter-spacing:1px;
+   font-family: 'Raleway', sans-serif;
+}
+.bio-img p {
+    color: #ffc53e;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.bio-grid-right h3 {
+  font-size: 3em;
+    color: black;
+    letter-spacing: 2px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.bio-grid-right p {
+    color: black;
+    font-size: 1em;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+
+/*footer css*/
+
+.footer{
+    width:100%;
+    color:white;
+    /*background:white;*/
+    background:rgba(50, 20, 1, 0.2);
+    height: auto;
+    /*position:absolute;*/
+    bottom:0;
+    /*z-index:0;*/
+    margin:0;
+    padding:1.5rem;
+}
+
+.middle_form{
+    vertical-align:center;
+}
+
+.btn {
+    margin: 1.5rem 1.5rem 1.5rem 0;
+}
+
+.btn-primary{
+    height:3rem;
+}
+
+.footer_grid_leftl{
+	    width: 55px;
+    height: 55px;
+    border-r.footer_grid {
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_grids p.agileits_w3layouts_est{
+	color:#fff;
+	line-height:2em;
+	margin:2em auto 5em;
+	    margin: 0 auto;
+	text-aliadius: 50px;
+    text-align: center;
+    background: #fba80c;
+    margin: 0 auto;
+}
+.footer_grid_leftl i{
+	color: #fff;
+    font-size: 1em;
+      padding: 20px;
+}
+.footer_grid_leftr{
+    margin-top: 10px;
+}
+.footer_grid_leftr h4{
+	font-size: 1.2em;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: .5em;
+}
+.footer_grid_leftr p{
+	color:#999;
+	line-height:1.5em;
+}
+.footer_grid_leftr a{
+	color:#999;
+	text-decoration:none;
+	font-size:14px;
+}
+.footer_grid_leftr a:hover{
+	color:#44c7f4;
+}
+.footer_pos{
+      margin-top: 4em;
+}
+.footer_pos p{
+	text-align:center;
+	color:#fff;
+	line-height:1.8em;
+}
+.footer_pos p a{
+	color:#44c7f4;
+	text-decoration:underline;
+}
+.footer_pos p a:hover{
+	color:#fff;
+}
+.footer_grid_left:hover .footer_grid_leftl{
+	background:#fff;
+}
+.footer_grid_left:hover .footer_grid_leftl i{
+	color:#212121;
+}
+.footer_grid_left:hover .footer_grid_leftr h4{
+	color:#44c7f4;
+}
+
+
+.tour_cal{
+    width: 3rem;
+    height: auto;
+}
+
+.tour_txt{
+    width: 4rem;
+    height: auto;
+}
+
+
+
+.middle {
+    vertical-align: center;
+}

@@ -1,0 +1,187 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Favorite Band</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.bundle.min.js" integrity="sha384-VspmFJ2uqRrKr3en+IG0cIq1Cl/v/PHneDw6SQZYgrcr8ZZmZoQ3zhuGfMnSR/F2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="responsives.css" type="text/css" />
+    <script type="text/javascript" src="test.js"></script>
+</head>
+
+<body>
+    <nav class="nav_bar">
+        <a class="brand_name js-scroll-trigger" href="#page-top">John legend</a>
+        <div class="dropdown pull-right">
+            <button id="test" class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a class="link1" href="index.html" data-toggle="tooltip" data-placement="left" title="Home"><i class="fa fa-home fa-fw" aria-hidden="true"></i></a>
+                <a class="link1" href="music.html" data-toggle="tooltip" data-placement="left" title="Music"><i class="fa fa-music fa-fw" aria-hidden="true"></i></a>
+                <a class="link1" href="tours.html" data-toggle="tooltip" data-placement="left" title="Tours"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>
+</a>
+
+            </div>
+            <div class="menu">
+                <ul class="dropdown_content_lg">
+                    <li><a class="link" href="index.html">Home</a></li>
+                    <li><a class="link" href="music.html">Music</a></li>
+                    <li><a class="link" href="tours.html">Tours</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+
+                    <div class="text-uppercase title">
+                        <h1>I love music</h1>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+    <section class="container">
+        <div class="row bio-grids">
+            <div class="col-12 col-sm-12 col-md-6 bio-grid-left">
+                <div class="bio-img">
+                    <img src="./images/john.jpg" alt="img">
+                    <h3 class="test">John Legend</h3>
+                    <p class="test">Soul singer</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 bio-grid-right">
+                <div class="bio-text">
+                    <h3>Biographie</h3>
+                    <h4>Who Is John Legend?</h4>
+                    <p>John Legend was born on December 28, 1978, in Springfield, Ohio. He became an in-demand session musician
+                        and songwriter, working with such artists as Alicia Keys, Twista and Janet Jackson. He was soon introduced
+                        to up-and-coming hip-hop artist Kanye West, and the two musicians collaborated on one another's demos.
+                        Legend's debut album, 2004's Get Lifted, won three Grammy Awards. After two more solo albums, he
+                        released his collaboration with the Roots, Wake Up!, in 2010. Legend also appeared on the TV competition
+                        Duets as a coach before dropping his next album, 2013's Love in the Future.
+                    </p>
+                </div>
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <form class="needs-validation" novalidate>
+                    <div class="form-row middle_form">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationTooltip01">First name</label>
+                            <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" required>
+                            <div class="valid-tooltip">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="validationTooltip02">Last name</label>
+                            <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" required>
+                            <div class="valid-tooltip">
+                                Looks good!
+                            </div>
+                        </div>
+                        <!--<div class="col-md-4 mb-3">
+                            <label for="validationTooltipUsername">Username</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                                </div>
+                                <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend"
+                                    required>
+                                <div class="invalid-tooltip">
+                                    Please choose a unique and valid username.
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationTooltip03">E-mail</label>
+                            <input type="text" class="form-control" id="validationTooltip03" placeholder="E-mail" required>
+                            <div class="invalid-tooltip">
+                                Please provide a valid city.
+                            </div>
+                        </div>
+                        <!--<div class="col-md-3 mb-3">
+                            <label for="validationTooltip04">State</label>
+                            <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
+                            <div class="invalid-tooltip">
+                                Please provide a valid state.
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="validationTooltip05">Zip</label>
+                            <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
+                            <div class="invalid-tooltip">
+                                Please provide a valid zip.
+                            </div>
+                        </div>-->
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="row footer_grid">
+                    <div class="col-4 col-md-4 footer_grid_left">
+                        <div class="footer_grid_leftl">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer_grid_leftr">
+                            <h4>Location</h4>
+                            <p>3030 New York, NY, USA</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class=" col-4col-4 col-md-4 footer_grid_left">
+                        <div class="footer_grid_leftl">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer_grid_leftr">
+                            <h4>Email</h4>
+                            <a href="mailto:info@example.com">info@example.com</a>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="col-4 col-md-4 footer_grid_left">
+                        <div class="footer_grid_leftl">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer_grid_leftr">
+                            <h4>Call Me</h4>
+                            <p>(+000) 003 003 0052</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+
+</body>
+
+</html>
